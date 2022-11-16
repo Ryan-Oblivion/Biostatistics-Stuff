@@ -1,0 +1,26 @@
+Poisson distribution
+=====================
+1) The horsekick death data from prussian army (HorseKicks.txt)
+is a famous dataset that was first explained by the Poisson distribution
+(and led to popular use of the distribution). It is a count of soldiers
+in the Prussian cavalry killed by horse kicks, by corp (15 corps) membership
+and by year (1875 to 1894).
+How would you explain the data using the Poisson distribution ?
+
+Is the data a good fit for the Poisson distribution ? 
+
+Plot the data and show your fit and submit your R code with annotations. 
+
+
+Use of Boxcox Transformation to make data Gaussian
+============================================
+
+2) In the mrnaseq_count_data.xlsx file,
+   a) for each column determine the boxcox transform that would make them
+      gaussian
+   b) is there a universal transform ?
+   c) would a log-transform be good enough  ?
+
+The log-transform is often used to transform expression data.
+
+
