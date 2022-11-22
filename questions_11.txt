@@ -1,0 +1,8 @@
+The file ppg2008.csv contains data about basketball players from the year 2008.
+It has various statistics on players in the NBA. You might not know what each
+of the metrics means (I don't), but they are just different dimensions of data.  
+
+Find and interpret clusters in this dataset. 
+
+
+This data is also part of one of your projects for the course.
