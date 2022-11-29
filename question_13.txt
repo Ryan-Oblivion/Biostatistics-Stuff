@@ -1,0 +1,45 @@
+
+This is an important problem with political implications !
+Attached is an op-ed article from the washington post
+(https://www.washingtonpost.com/news/volokh-conspiracy/wp/2015/10/06/zero-correlation-between-state-homicide-rate-and-state-gun-laws/ )
+that claimed there was no correlation between gun-control and homicide rates.
+But this argument is based on faulty use (abuse) of statistics. You are
+going to prove it. 
+
+ 
+The paper/talk here hints at the problem:
+Distance Correlation: A New Tool for Detecting Association
+and Measuring Correlation Between Data Sets, Donald St. P. Richards
+(https://arxiv.org/abs/1709.06400)
+The excel spreadsheet used by the post author is attached (stategundata.xlsx),
+the graph from the article is also attached (gun_homicide_graph.jpg) as is
+the data extracted from the graph
+
+ 
+Assignment:
+
+Extract the data from the plot (gun_homicide_graph.jpg ,
+using Web Plot Digitizer (https://automeris.io/WebPlotDigitizer/ ),
+worth learning, as it will be useful in other real-life applications,
+(an example output is provided in here data_extracted_from_graph.csv.xlsx)
+      
+1)  How well does your extracted data files compare with the data in the
+excel file of the raw data. What would you use to compare the two sets of data ?
+      
+      
+2) Analyze the data (excel sheet with data is provided) using Pearson's
+correlation.
+      
+      
+3) Analyze the data using distance correlation (install the energy package).
+      
+      
+4)  What mistake did the author make?
+          
+
+5)  How would you fix the article? (and show there is a correlation between gun laws and homicide rates)
+
+Remember distance correlation is zero if and only if there is no correlation. 
+It is always positive, unlike pearson's correlation, which can also take on
+negative values (so you cannot see negative correlation easily, better gun laws
+lead to lower deaths by gun). 
