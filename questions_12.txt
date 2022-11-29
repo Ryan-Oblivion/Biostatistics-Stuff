@@ -1,0 +1,25 @@
+In the lecture we analysed the warp breaks data for looms
+(warpbreaks dataset in R)
+It has data on breaks/loom/fixed-yarn-length for different looms,
+maybe from a knitting factory. 
+
+We have already analyzed the data using the Poisson as a link function. 
+
+The assignment is to reanalyze the data using the quasipoisson link
+function 
+How is it different from the results of the Poisson distribution ?
+Is it any better ? why ?
+
+If possible, try to  use jtools and plot_summs to plot model variables. 
+
+ 
+
+The point of this exercise is to highlight how quasipoisson link function
+might be a better alternative to Poisson. Please annotate the logic
+of the code in comments (so the code should run by itself and
+generate the plots, but also be easy to read and understand the logic).
+The goal here is to give you some familiarity with implementing GLM models
+for future use in your work. This might be easier to do in a notebook 
+
+ 
+some code from our lectures are also available here. 
